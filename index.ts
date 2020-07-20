@@ -102,6 +102,7 @@ command.handler = async (argv: SyncArguments) => {
   [repo.sourceDir, repo.targetDir] = [repo.targetDir, repo.sourceDir];
   [repo.addTagPrefix, repo.removeTagPrefix] = [repo.removeTagPrefix, repo.addTagPrefix];
   repo.target = cwd;
+  repo.plugins = config.getRepoPlugins(repo.plugins);
 
   const sync = new Sync();
   return sync.sync(repo);
