@@ -1,6 +1,6 @@
 {
   "name": "@gitsync/import-command",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Import a repository to current repository",
   "keywords": [
     "gitsync",
@@ -28,7 +28,7 @@
     "prepare": "yarn build"
   },
   "dependencies": {
-    "@gitsync/sync": "^0.6.0"
+    "@gitsync/sync": "^0.6.1"
   },
   "devDependencies": {
     "@gitsync/test": "^0.5.0",

@@ -1,9 +1,19 @@
-# [0.6.0](https://github.com/twinh/gitsync/compare/@gitsync/import-command@0.5.1...@gitsync/import-command@0.6.0) (2020-07-21)
+## [0.6.1](https://github.com/gitsync-pkg/gitsync-import-command/compare/v0.6.0...v0.6.1) (2020-08-06)
+
+
+
+
+
+### Dependencies
+
+* **@gitsync/sync:** upgrade from 0.6.0 to 0.6.1
+
+# [0.6.0](https://github.com/gitsync-pkg/gitsync-import-command/compare/v0.5.1...v0.6.0) (2020-07-21)
 
 
 ### Features
 
-* add plugin system ([cfab810](https://github.com/twinh/gitsync/commit/cfab8106437e6f6df4c80d9664c91decd6d89211))
+* add plugin system ([be4d4fa](https://github.com/gitsync-pkg/gitsync-import-command/commit/be4d4fa1fe6941f181234e27a9b3c5b912c08b04))
 
 
 
